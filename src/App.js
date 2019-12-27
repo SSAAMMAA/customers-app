@@ -24,8 +24,8 @@ class App extends Component {
           <Route exact path="/customers" component={this.renderCustomerListContainer}/>
           <Switch>
            {/*ante la primer coincidencia valida utiliza esa  */}
-            <Route exact path="/customers/new" component={this.renderCustomerNewContainer}/>
-            <Route exact path="/customers/:dni" component={this.renderCustomerContainer}/>
+            <Route path="/customers/new" component={this.renderCustomerNewContainer}/>
+            <Route path="/customers/:dni" component={this.renderCustomerContainer}/>
           </Switch>
         </div>
       </Router>
