@@ -26,8 +26,16 @@ code {
 }
 
 .customers-actions button {
-  background: #EEE;
+  background: #FFF;
   min-width: 100px;
   height: 30px;
   margin: 5px;
+}
+
+.customer-list-item .field {
+  width: 160px;
+  margin: 1px;
+  padding:4px;
+  background-color: #EEE;
+  display: inline-block;
 }
