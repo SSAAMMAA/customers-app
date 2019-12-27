@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
-import { Link, BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import HomeContainer from './containers/HomeContainer';
 
 class App extends Component {
 
-  renderHome = () => <h1>Home</h1>;
+  renderHome = () => <HomeContainer/>;
 
   renderCustomerContainer = () => <h1>Customer Container</h1>;
   
